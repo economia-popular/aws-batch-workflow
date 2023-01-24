@@ -47,7 +47,7 @@ variable "job_timeout" {
 
 variable "batch_scheduler" {
   type    = string
-  default = "rate(12 hours)"
+  default = "rate(1 day)"
 }
 
 variable "batch_array_size" {
