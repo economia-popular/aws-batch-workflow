@@ -4,7 +4,7 @@ resource "aws_batch_job_definition" "indices_combustiveis" {
   type = "container"
 
   timeout {
-    attempt_duration_seconds = var.job_timeout * 2
+    attempt_duration_seconds = var.job_timeout * 3
   }
 
   platform_capabilities = [
