@@ -27,12 +27,12 @@ variable "computing_type" {
 
 variable "vcpu" {
   type    = string
-  default = "0.5"
+  default = "1"
 }
 
 variable "memory" {
   type    = string
-  default = "1024"
+  default = "2048"
 }
 
 variable "max_vcpus" {
@@ -42,7 +42,7 @@ variable "max_vcpus" {
 
 variable "job_timeout" {
   type    = number
-  default = 240
+  default = 480
 }
 
 variable "batch_scheduler" {
