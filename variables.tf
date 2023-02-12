@@ -42,7 +42,7 @@ variable "max_vcpus" {
 
 variable "job_timeout" {
   type    = number
-  default = 60
+  default = 120
 }
 
 variable "batch_scheduler" {
