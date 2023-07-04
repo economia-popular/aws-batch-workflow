@@ -52,12 +52,12 @@ variable "batch_scheduler" {
 
 variable "batch_array_size" {
   type    = number
-  default = 2
+  default = 4
 }
 
 variable "batch_attempts" {
   type    = number
-  default = 1
+  default = 2
 }
 
 variable "default_tags" {
